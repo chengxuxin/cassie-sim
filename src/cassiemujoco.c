@@ -631,16 +631,16 @@ static void cassie_leg_out_init(cassie_leg_out_t *o)
 {
     o->medullaCounter = 1;
     o->medullaCpuLoad = 94;
-    // elmo_out_init(&o->hipRollDrive,  140.63, 25);
-    // elmo_out_init(&o->hipYawDrive,   140.63, 25);
-    // elmo_out_init(&o->hipPitchDrive, 216.16, 16);
-    // elmo_out_init(&o->kneeDrive,     216.16, 16);
-    // elmo_out_init(&o->footDrive,      45.14, 50);
-    elmo_out_init(&o->hipRollDrive,  80, 25);
-    elmo_out_init(&o->hipYawDrive,   60, 25);
-    elmo_out_init(&o->hipPitchDrive, 80, 16);
-    elmo_out_init(&o->kneeDrive,     190, 16);
-    elmo_out_init(&o->footDrive,      45, 50);
+    elmo_out_init(&o->hipRollDrive,  140.63, 25);
+    elmo_out_init(&o->hipYawDrive,   140.63, 25);
+    elmo_out_init(&o->hipPitchDrive, 216.16, 16);
+    elmo_out_init(&o->kneeDrive,     216.16, 16);
+    elmo_out_init(&o->footDrive,      45.14, 50);
+    // elmo_out_init(&o->hipRollDrive,  80, 25);
+    // elmo_out_init(&o->hipYawDrive,   60, 25);
+    // elmo_out_init(&o->hipPitchDrive, 80, 16);
+    // elmo_out_init(&o->kneeDrive,     190, 16);
+    // elmo_out_init(&o->footDrive,      45, 50);
 }
 
 
